@@ -1,0 +1,11 @@
+framework module TTDUID2Adatper {
+  umbrella header "TTDUID2Adatper.h"
+  export *
+
+  module * { export * }
+}
+
+module TTDUID2Adatper.Swift {
+  header "TTDUID2Adatper-Swift.h"
+  requires objc
+}
