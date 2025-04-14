@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TTDUID2Adatper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import Foundation
+import Swift
+@_exported import TTDUID2Adatper
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers public class TTDUID2Manager : ObjectiveC.NSObject {
+  @objc public static let shared: TTDUID2Adatper.TTDUID2Manager
+  @objc public var email: Swift.String?
+  @objc public var emailHash: Swift.String?
+  @objc public var phone: Swift.String?
+  @objc public var phoneHash: Swift.String?
+  @objc public var subscriptionID: Swift.String?
+  @objc public var serverPublicKey: Swift.String?
+  @objc public var appName: Swift.String?
+  @objc public var customURLString: Swift.String?
+  @objc public func clear()
+  @objc public func start(testMode: Swift.Bool) async -> Foundation.NSError?
+  @objc public func getToken() -> Foundation.NSString?
+  @objc override dynamic public init()
+  @objc deinit
+}

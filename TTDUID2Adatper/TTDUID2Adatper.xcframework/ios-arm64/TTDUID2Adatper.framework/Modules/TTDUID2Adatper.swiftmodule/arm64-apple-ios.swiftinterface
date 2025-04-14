@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
-// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name TTDUID2Adatper
-// swift-module-flags-ignorable: -enable-bare-slash-regex
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TTDUID2Adatper
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Foundation
 import Swift
 @_exported import TTDUID2Adatper
@@ -19,9 +19,7 @@ import _SwiftConcurrencyShims
   @objc public var appName: Swift.String?
   @objc public var customURLString: Swift.String?
   @objc public func clear()
-  #if compiler(>=5.3) && $AsyncAwait
   @objc public func start(testMode: Swift.Bool) async -> Foundation.NSError?
-  #endif
   @objc public func getToken() -> Foundation.NSString?
   @objc override dynamic public init()
   @objc deinit

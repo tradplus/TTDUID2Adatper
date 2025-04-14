@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "TTDUID2Adatper",
+    "printedName": "TTDUID2Adatper",
     "children": [
       {
         "kind": "Import",
@@ -1150,6 +1150,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -1204,7 +1218,7 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/xuejun\/tradplus_dev_ios\/sdk\/TTDUID2Adatper\/TTDUID2Adatper\/TTDUID2Manager.swift",
+      "filePath": "\/Users\/xuejun\/three\/tradplus_dev_ios\/sdk\/TTDUID2Adatper\/TTDUID2Adatper\/TTDUID2Manager.swift",
       "kind": "BooleanLiteral",
       "offset": 870,
       "length": 5,
