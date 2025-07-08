@@ -107,8 +107,7 @@
               "HasInitialValue",
               "HasStorage",
               "AccessControl",
-              "ObjC",
-              "RawDocComment"
+              "ObjC"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1218,9 +1217,9 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/xuejun\/three\/tradplus_dev_ios\/sdk\/TTDUID2Adatper\/TTDUID2Adatper\/TTDUID2Manager.swift",
+      "filePath": "\/Users\/xuejun\/tradplus_dev_ios\/sdk\/TTDUID2Adatper\/TTDUID2Adatper\/TTDUID2Manager.swift",
       "kind": "BooleanLiteral",
-      "offset": 870,
+      "offset": 748,
       "length": 5,
       "value": "false"
     }

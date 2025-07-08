@@ -309,16 +309,15 @@ SWIFT_CLASS("_TtC14TTDUID2Adatper14TTDUID2Manager")
 @interface TTDUID2Manager : NSObject
 SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) TTDUID2Manager * _Nonnull shared;)
 + (TTDUID2Manager * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-/// email emailHash phone phoneHash needs to choose one set
 @property (nonatomic, copy) NSString * _Nullable email;
 @property (nonatomic, copy) NSString * _Nullable emailHash;
 @property (nonatomic, copy) NSString * _Nullable phone;
 @property (nonatomic, copy) NSString * _Nullable phoneHash;
-/// The subscription id that was obtained when configuring your account.
+/// 配置账号时获取的 subscription id
 @property (nonatomic, copy) NSString * _Nullable subscriptionID;
-/// The public key that was obtained when configuring your account.
+/// 配置账号时获取的公钥
 @property (nonatomic, copy) NSString * _Nullable serverPublicKey;
-/// The app’s identifier. If <code>nil</code>, defaults to <code>Bundle.main.bundleIdentifier</code> which is appropriate in most cases.
+/// 应用标识符，默认使用 Bundle.main.bundleIdentifier
 @property (nonatomic, copy) NSString * _Nullable appName;
 @property (nonatomic, copy) NSString * _Nullable customURLString;
 - (void)clear;
